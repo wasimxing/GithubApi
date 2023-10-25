@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="github.CRUDOperations.UpdateRepoTest">
+      <class name="github.CRUDOperations.DeleteRepoUserTest">
         <methods>
           <include name="methodConfig"/>
-          <include name="updateRepoTest"/>
+          <include name="deleteRepoUserTest"/>
           <include name="MethodTearDown"/>
         </methods>
-      </class> <!-- github.CRUDOperations.UpdateRepoTest -->
+      </class> <!-- github.CRUDOperations.DeleteRepoUserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
